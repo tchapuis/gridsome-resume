@@ -5,7 +5,7 @@
       <span class="d-none d-lg-block">
         <g-image
           alt="Photo de Thomas Chapuis"
-          src="../assets/images/profile.png"
+          src="../assets/images/thomas-200x200.jpg"
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
       </span>
@@ -20,10 +20,7 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Expérience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Education</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Expériences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Hobbies</a>

@@ -7,12 +7,11 @@
       <hr class="m-0">
       <Experience/>
       <hr class="m-0">
-      <Education/>
-      <hr class="m-0">
       <Interests/>
       <hr class="m-0">
       <Contact/>
       <hr class="m-0">
+      <Footer/>
     </div>
   </Layout>
 </template>
@@ -20,19 +19,19 @@
 <script>
 import About from "../components/About";
 import Experience from "../components/Experience";
-import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default {
   components: {
     About,
     Experience,
-    Education,
     Skills,
     Interests,
-    Contact
+    Contact,
+    Footer
   },
   metaInfo: {
     title: "Thomas Chapuis",
@@ -43,9 +42,8 @@ export default {
 
 <style lang="scss">
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+  font-family: "Fira Sans Extra Condensed", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;

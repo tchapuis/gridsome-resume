@@ -74,10 +74,10 @@ export default function (Vue, {
 
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700'
+    href: 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap'
   })
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i'
+    href: 'https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap'
   })
 }

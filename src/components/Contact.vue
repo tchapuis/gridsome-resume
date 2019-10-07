@@ -23,7 +23,7 @@
           <label for="message">
             Votre message:
           </label>
-          <textarea id="message" name="message" class="w-100 form-control"></textarea>
+          <textarea id="message" name="message" class="w-100 form-control" rows="4"></textarea>
         </div>
 
 
