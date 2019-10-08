@@ -35,7 +35,7 @@ export default {
   },
   metaInfo: {
     title: "Thomas Chapuis",
-    titleTemplate: "%s - Developeur Web Fullstack"
+    titleTemplate: "%s - Developeur Web Fullstack Freelance"
   }
 };
 </script>

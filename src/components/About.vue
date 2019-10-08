@@ -14,7 +14,7 @@
       </div>
       <p
           class="lead mb-3"
-      >Je suis développeur Web Fullstack expérimenté, spécialisé dans les technologies PHP et notamment le framework
+      >Je suis développeur Web Fullstack expérimenté, en freelance, spécialisé dans les technologies PHP et notamment le framework
         Symfony. J'ai eu l'occasion de travailler sur des projets pour de grands groupes mais également
         m'adapter aux contraintes de plus petites structures.
       </p>
