@@ -24,8 +24,7 @@
       </p>
       <p class="lead mb-5">
         Je me mets constamment au défi d'atteindre des buts ambitieux, avec de l’intérêt pour l'humain et le travail en
-        équipe. La collaboration permet des choses merveilleuses mais il suffit d'une seule personne pour faire la
-        différence.
+        équipe.
       </p>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/thomas-chapuis/" target="_blank" rel="noopener noreferrer" title="Linkedin">
