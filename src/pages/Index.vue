@@ -58,6 +58,10 @@ export default {
   font-size: 3rem;
 }
 
+.list-inline-item svg{
+  transition: all .2s;
+}
+
 .dev-icons .list-inline-item svg:hover {
   color: var(--primary);
 }

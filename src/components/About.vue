@@ -81,6 +81,7 @@
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    transition: background-color .2s;
 
     @media (max-width: 380px) {
       margin-right: 0.5rem;
