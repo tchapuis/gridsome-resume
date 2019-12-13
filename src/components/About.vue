@@ -3,7 +3,7 @@
     <div class="w-100">
       <h1 class="mb-1">
         <span id="fullname">
-          Thomas <span class="text-primary">Chapuis</span>
+          Thomas <strong class="text-primary">Chapuis</strong>
         </span>
       </h1>
       <div class="subheading mb-5">
@@ -52,15 +52,15 @@
       }).pause(1500)
         .delete()
         .pause(500)
-        .type('Développeur <span class="text-primary">Frontend</span>')
+        .type('Développeur <strong class="text-primary">Frontend</strong>')
         .pause(1000)
         .delete(8)
         .pause(1000)
-        .type('<span class="text-primary">Backend</span>')
+        .type('<strong class="text-primary">Backend</strong>')
         .pause(1000)
         .delete(7)
         .pause(1000)
-        .type('<span class="text-primary">Fullstack</span>')
+        .type('<strong class="text-primary">Fullstack</strong>')
         .pause(1500)
         .go();
 

@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
+  <b-navbar class="fixed-top" toggleable="lg" type="dark" variant="primary" id="sideNav">
+    <b-navbar-brand v-on:click.prevent="$scrollTo('#about')">
       <span class="d-block d-lg-none">Thomas Chapuis</span>
       <span class="d-none d-lg-block">
         <g-image
@@ -9,28 +9,28 @@
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
       </span>
-    </div>
+    </b-navbar-brand>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">Présentation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Compétences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Expériences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Hobbies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Contactez-moi</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <b-collapse id="navbarSupportedContent" is-nav v-b-scrollspy>
+      <b-navbar-nav>
+        <b-nav-item v-on:click.prevent="$scrollTo('#about')" href="#about">
+          Présentation
+        </b-nav-item>
+        <b-nav-item v-on:click.prevent="$scrollTo('#skills')" href="#skills">
+          Compétences
+        </b-nav-item>
+        <b-nav-item v-on:click.prevent="$scrollTo('#experience')" href="#experience">
+          Expériences
+        </b-nav-item>
+        <b-nav-item v-on:click.prevent="$scrollTo('#interests')" href="#interests">
+          Hobbies
+        </b-nav-item>
+        <b-nav-item v-on:click.prevent="$scrollTo('#contact')" href="#contact">
+          Contactez-moi
+        </b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <style scoped lang="scss">

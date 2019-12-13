@@ -72,6 +72,8 @@ export default function (Vue, {
 
   Vue.component('font-awesome', FontAwesomeIcon)
 
+  head.bodyAttrs = { class: 'custom-body-class' }
+
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap'

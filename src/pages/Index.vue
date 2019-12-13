@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="container-fluid p-0">
+    <b-container fluid class="p-0" id="nav-scroller" ref="content">
       <About/>
       <hr class="m-0">
       <Skills/>
@@ -12,7 +12,7 @@
       <Contact/>
       <hr class="m-0">
       <Footer/>
-    </div>
+    </b-container>
   </Layout>
 </template>
 
