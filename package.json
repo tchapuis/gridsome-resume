@@ -20,7 +20,7 @@
     "gridsome": "^0.7.19",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.2",
-    "typeit": "^6.0.3",
+    "typeit": "^7.0.4",
     "vue-scrollto": "^2.18.2"
   }
 }

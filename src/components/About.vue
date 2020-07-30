@@ -1,19 +1,22 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about" itemscope itemtype="http://schema.org/Person">
     <div class="w-100">
       <h1 class="mb-1">
-        <span id="fullname">
+        <span id="fullname" itemprop="name">
           Thomas <strong class="text-primary">Chapuis</strong>
         </span>
       </h1>
+      <h2 class="h3" itemprop="jobTitle">
+        Développeur <strong class="text-primary">Fullstack</strong>
+      </h2>
       <div class="subheading mb-5">
-        <a href="tel:+33676221152" class="ninja">06 76 22 11 52</a> ·
+        <a href="tel:+33676221152" class="ninja" itemprop="telephone">06 76 22 11 52</a> ·
         <a
-            href="mailto:chapuis.t@protonmail.com"
+            href="mailto:chapuis.t@protonmail.com" itemprop="email"
         >chapuis.t@protonmail.com</a>
       </div>
       <p
-          class="lead mb-3"
+          class="lead mb-3" itemprop="description"
       >Je suis développeur Web Fullstack expérimenté, en freelance, spécialisé dans les technologies PHP et notamment le framework
         Symfony. J'ai eu l'occasion de travailler sur des projets pour de grands groupes mais également
         m'adapter aux contraintes de plus petites structures.
@@ -40,33 +43,6 @@
     </div>
   </section>
 </template>
-
-<script>
-  import TypeIt from 'typeit';
-  export default {
-    mounted() {
-      new TypeIt('#fullname', {
-        speed: 80,
-        waitUntilVisible: true,
-        loop: true,
-      }).pause(1500)
-        .delete()
-        .pause(500)
-        .type('Développeur <strong class="text-primary">Frontend</strong>')
-        .pause(1000)
-        .delete(8)
-        .pause(1000)
-        .type('<strong class="text-primary">Backend</strong>')
-        .pause(1000)
-        .delete(7)
-        .pause(1000)
-        .type('<strong class="text-primary">Fullstack</strong>')
-        .pause(1500)
-        .go();
-
-    }
-  }
-</script>
 
 <style lang="scss" scoped>
   .social-icons a {
