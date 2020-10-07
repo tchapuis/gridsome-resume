@@ -36,7 +36,7 @@
         <a href="https://gitlab.com/amstr4d" target="_blank" rel="noopener noreferrer" title="Gitlab">
           <font-awesome :icon="['fab', 'gitlab']"/>
         </a>
-        <a href="https://github.com/amstr4d" target="_blank" rel="noopener noreferrer" title="Github">
+        <a href="https://github.com/tchapuis" target="_blank" rel="noopener noreferrer" title="Github">
           <font-awesome :icon="['fab', 'github']"/>
         </a>
       </div>
